@@ -1,18 +1,15 @@
+import 'package:countries_list/src/country_iso.dart';
 import 'package:flutter/foundation.dart';
 
 class Country {
-  final String alpha2;
-  final String alpha3;
   final String latinName;
-  final String localizedName;
+  final CountryIso countryIso;
   final String phoneCode;
   final String flag;
 
-  const Country({
-    @required this.alpha2,
-    @required this.alpha3,
+  Country({
     @required this.latinName,
-    @required this.localizedName,
+    @required this.countryIso,
     @required this.phoneCode,
     @required this.flag,
   });
