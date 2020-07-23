@@ -1,8 +1,8 @@
 name: countries_list
 description: Just list of countries, and nothing else. You can use it for creating your own country picker.
-version: 0.0.1
-repository: https://github.com/torindev/countries_list
-homepage: https://github.com/torindev/countries_list
+version: 0.0.7
+repository: "https://github.com/torindev/countries_list"
+homepage: "https://github.com/torindev/countries_list"
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

@@ -1,4 +1,4 @@
-import 'package:meta/meta.dart';
+import 'package:flutter/foundation.dart';
 import 'dart:convert';
 
 List<CountryIso> countryIsoFromMap(String str) =>

@@ -6,7 +6,7 @@ import 'package:countries_list/countries_list.dart';
 
 void main() async {
   int start = DateTime.now().millisecondsSinceEpoch;
-  final countries = await getCountries();
+  final countries = await getCountriesIso();
   int end = DateTime.now().millisecondsSinceEpoch;
   print('countries count = ${countries.length}, time spent ${end - start} ms');
 //  test('adds one to input values', () {

@@ -13,4 +13,20 @@ class Country {
     @required this.phoneCode,
     @required this.flag,
   });
+
+  @override
+  String toString() {
+    return '$latinName (${countryIso.alpha2}), +$phoneCode, $flag';
+  }
+
+  bool contains(String t) {
+    try {
+      return latinName.toLowerCase().contains(t.toLowerCase()) ||
+          phoneCode.toLowerCase().contains(t.toLowerCase()) ||
+          countryIso.alpha2.toLowerCase().contains(t.toLowerCase()) ||
+          countryIso.alpha3.toLowerCase().contains(t.toLowerCase());
+    } catch (error) {
+      return false;
+    }
+  }
 }
