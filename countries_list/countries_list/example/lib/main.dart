@@ -32,7 +32,9 @@ class MyApp extends StatelessWidget {
                     ),
                     title: Text(
                         '${country.latinName} (${country.countryIso.alpha2})'),
-                    subtitle: Text('phone code: +${country.phoneCode}'),
+                    subtitle: country.phoneCode != null
+                        ? Text('phone code: +${country.phoneCode}')
+                        : Text('Phone code not found'),
                   );
                 },
                 itemCount: countries.length,

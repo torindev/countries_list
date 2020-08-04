@@ -1,6 +1,6 @@
 name: countries_list
 description: Just list of countries, and nothing else. You can use it for creating your own country picker.
-version: 0.0.7
+version: 0.1.2
 repository: "https://github.com/torindev/countries_list"
 homepage: "https://github.com/torindev/countries_list"
 
@@ -21,6 +21,8 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
 
+  assets:
+    - assets/countries_row_json.txt
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
