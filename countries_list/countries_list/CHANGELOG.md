@@ -5,5 +5,7 @@
 ## [0.0.8] - read countries from file and parse it from json in isolate
 ## [0.0.9] - fix asset bug
 ## [0.1.2] - update docs
+## [0.1.3] - update docs
+## [0.1.5] - fix minor bug
 
 * TODO: Describe initial release.

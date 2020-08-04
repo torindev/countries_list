@@ -1,6 +1,6 @@
 # countries_list
 
-Simply, list of countries. I used json from this repo [ISO-3166-Countries-with-Regional-Codes](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes)
+These lists are the result of parsing json data from this repo [ISO-3166-Countries-with-Regional-Codes](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes)
 
 ### **Main methods:**
 ```dart
