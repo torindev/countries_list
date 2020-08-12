@@ -7,5 +7,7 @@
 ## [0.1.2] - update docs
 ## [0.1.3] - update docs
 ## [0.1.5] - fix minor bug
+## [0.1.6] - update docs
+## [0.1.7] - update docs
 
 * TODO: Describe initial release.

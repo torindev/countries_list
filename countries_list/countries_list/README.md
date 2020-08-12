@@ -19,14 +19,16 @@ class Country {
   final String latinName;
   final CountryIso countryIso;
   final String phoneCode;
-  final String flag; //emoji flag
+  final String flag;
 
+  // for search
   bool contains(String t) {
     try {
-      return latinName.toLowerCase().contains(t.toLowerCase()) ||
-          phoneCode.toLowerCase().contains(t.toLowerCase()) ||
-          countryIso.alpha2.toLowerCase().contains(t.toLowerCase()) ||
-          countryIso.alpha3.toLowerCase().contains(t.toLowerCase());
+      return latinName?.toLowerCase()?.contains(t.toLowerCase()) == true ||
+          phoneCode?.toLowerCase()?.contains(t.toLowerCase()) == true ||
+          countryIso?.alpha2?.toLowerCase()?.contains(t.toLowerCase()) ==
+              true ||
+          countryIso?.alpha3?.toLowerCase()?.contains(t.toLowerCase()) == true;
     } catch (error) {
       return false;
     }

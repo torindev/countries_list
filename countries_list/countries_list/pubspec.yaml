@@ -1,6 +1,6 @@
 name: countries_list
-description: ISO-3166 Country and Dependent Territories Lists with UN Regional Codes. Country object contains phone code, flag emoji, alpha1, alpha2 etc. You can use it for creating your own country picker.
-version: 0.1.5
+description: ISO-3166 Country and Dependent Territories Lists with UN Regional Codes. Country object contains phone code, flag emoji, alpha1, alpha2 etc.
+version: 0.1.7
 repository: "https://github.com/torindev/countries_list"
 homepage: "https://github.com/torindev/countries_list"
 
